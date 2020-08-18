@@ -24,6 +24,7 @@ body {
 main {
      background-color: var(--color-primary);
      max-width: 700px;
+     width: auto;
      margin: auto;
      padding: 10px;
      border-radius: 1rem;
@@ -52,15 +53,32 @@ main .introduction {
     justify-content: center;
     font-weight: 600;
 
+    background-color: var(--color-secondary);
+    border-radius: 1rem;
+    transition: 2s;
+    margin: 0 0.2rem 0 0.2rem;
+}
+
+main .introduction p {
+    margin: 1rem;
+    display: flex;
+    text-align: center;
+    justify-self: center;
 }
 
 main .images {
-    max-width: 400px;
-    margin: 3rem;
+    width: auto;
+    max-width: 25rem;
+    margin: 4rem;
 
     display: flex;
+    text-align: center;
     align-items: center;
     justify-items: center;
+}
+
+main .images :hover {
+    max-width: 410px;
 }
 
 main .introduction .images:hover {
