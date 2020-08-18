@@ -39,17 +39,31 @@ main header .logo {
     max-width: 30rem;
 }
 
+main .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+
 main .introduction {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    font-weight: 600;
+
 }
 
-main .introduction .images img {
-    max-width: 250px;
+main .images {
+    max-width: 400px;
+    margin: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
 
-main .introduction .images img :hover {
+main .introduction .images:hover {
     border-bottom-color: var(--color-white);
     border-bottom: 2px;
 }
