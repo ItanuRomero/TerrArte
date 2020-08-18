@@ -1,16 +1,63 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+:root {
+    /* principais */
+    --color-green: #BFF205;
+    --color-primary: #A66C24;
+    --color-secondary: #F2BFAC;
+    --color-dark: #402A0F;
+    --color-background: #734B1A;
+    /* detalhes: */
+    --color-white: #ffffff;
+    --color-black: #000000;
+}
+
+html, body {
+    height: 100vh;
+    width: auto;
 }
 
 body {
-    background-color: aqua;
+    background-color: var(--color-background);display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
-     background-color: azure;
-     width: 600px;
+     background-color: var(--color-primary);
+     max-width: 700px;
      margin: auto;
      padding: 10px;
-     box-shadow: 3px 3px 5px black;
+     border-radius: 1rem;
+}
+
+main header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main header .logo {
+    max-width: 30rem;
+}
+
+main .introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .introduction .images img {
+    max-width: 250px;
+}
+
+main .introduction .images img :hover {
+    border-bottom-color: var(--color-white);
+    border-bottom: 2px;
+}
+
+body,
+input,
+button,
+textarea {
+    font-family: Inconsolata;
+    /* https://fonts.google.com/specimen/Inconsolata#standard-styles */
 }
