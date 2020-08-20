@@ -66,21 +66,6 @@ main .introduction p {
     justify-self: center;
 }
 
-main .images {
-    width: auto;
-    max-width: 25rem;
-    margin: 4rem;
-
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
-}
-
-main .images :hover {
-    max-width: 410px;
-}
-
 main .introduction .images:hover {
     border-bottom-color: var(--color-white);
     border-bottom: 2px;
