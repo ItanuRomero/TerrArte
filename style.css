@@ -1,20 +1,20 @@
 :root {
     /* principais */
-    --color-green: #BFF205;
-    --color-primary: #A66C24;
-    --color-secondary: #F2BFAC;
+    --color-green: #82af61;
+    --color-primary: #76391a;
     --color-dark: #402A0F;
-    --color-background: #734B1A;
+    --color-background:#97bf7a;
     /* detalhes: */
     --color-white: #ffffff;
     --color-black: #000000;
+    --color-gray: #444444;
 }
 
 body,
 input,
 button,
 textarea {
-    font-family: Inconsolata;
+    font-family: "Baloo 2";
     /* https://fonts.google.com/specimen/Inconsolata#standard-styles */
 }
 
@@ -24,77 +24,82 @@ html, body {
 }
 
 body {
-    background-color: var(--color-background);
-
+     background-color: var(--color-background);  
+     background-image: url(../images/bambu2.png);
+     background-size: 130vw 100vh;
+     background-repeat: no-repeat;
 }
 
-main {
-     background-color: var(--color-primary);
-     max-width: 700px;
-     width: auto;
-     margin: auto;
-     padding: 10px;
-     border-radius: 1rem;
+header nav{
+    background-color: var(--color-primary);
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
 }
 
-main header {
-    background-color: #402A0F;
-    border-radius: 1rem;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header nav img{
+    width: 42%;
+    height: 42%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
-main header .topo {
-    max-width: 90vh;
+.card{
+    background-color:rgba(130, 175, 97, 0.3);
+    border: none;
+    border-radius: 15px;
+    margin:20px;
+    box-shadow: 3px 3px 15px var(--color-gray);
 }
 
-main header .topo .logo {
-    max-width: 70vh;
-}
-
-main .title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.2rem;
-}
-
-main .introduction {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-
-    background-color: var(--color-secondary);
-    border-radius: 1rem;
-    transition: 2s;
-    margin: 0 0.2rem 0 0.2rem;
-}
-
-main .introduction p {
-    margin: 1rem;
-    display: flex;
-    text-align: center;
-    justify-self: center;
-}
-
-main .introduction .images:hover {
-    border-bottom-color: var(--color-white);
-    border-bottom: 2px;
-}
-
-main .show_slides {
-    transition: 0.2s;
-
-    text-align: center;
-
-    font-weight: bold;
+.card p{
     color: var(--color-white);
+    font-weight:bold ;
 }
 
-main #slides {
-    
-    background-color: var(--color-white);
+.card h6{
+    color: var(--color-white);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card i{
+    color: var(--color-primary);
+    justify-content: center;
+    font-size: 25px;
+    padding-left: 3px;
+}
+
+
+.titulo{
+    color: var(--color-white);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px var(--color-gray);
+}
+
+.slide{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer div{
+    background-color: var(--color-primary);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-bottom:5px;
+    padding-top: 5px;;   
+}
+
+footer div h6{
+    color: var(--color-white);
+    font-weight:bold;
+    padding-top: 5px;
+    text-align: center;  
 }
