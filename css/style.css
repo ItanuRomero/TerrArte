@@ -1,0 +1,105 @@
+:root {
+    /* principais */
+    --color-green: #82af61;
+    --color-primary: #76391a;
+    --color-dark: #402A0F;
+    --color-background:#97bf7a;
+    /* detalhes: */
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-gray: #444444;
+}
+
+body,
+input,
+button,
+textarea {
+    font-family: "Baloo 2";
+    /* https://fonts.google.com/specimen/Inconsolata#standard-styles */
+}
+
+html, body {
+    height: 100vh;
+    width: auto;
+}
+
+body {
+     background-color: var(--color-background);  
+     background-image: url(../images/bambu2.png);
+     background-size: 130vw 100vh;
+     background-repeat: no-repeat;
+}
+
+header nav{
+    background-color: var(--color-primary);
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+}
+
+header nav img{
+    width: 42%;
+    height: 42%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.card{
+    background-color:rgba(130, 175, 97, 0.3);
+    border: none;
+    border-radius: 15px;
+    margin:20px;
+    box-shadow: 3px 3px 15px var(--color-gray);
+}
+
+.card p{
+    color: var(--color-white);
+    font-weight:bold ;
+}
+
+.card h6{
+    color: var(--color-white);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card i{
+    color: var(--color-primary);
+    justify-content: center;
+    font-size: 25px;
+    padding-left: 3px;
+}
+
+
+.titulo{
+    color: var(--color-white);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px var(--color-gray);
+}
+
+.slide{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer div{
+    background-color: var(--color-primary);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-bottom:5px;
+    padding-top: 5px;;   
+}
+
+footer div h6{
+    color: var(--color-white);
+    font-weight:bold;
+    padding-top: 5px;
+    text-align: center;  
+}
