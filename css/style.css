@@ -24,10 +24,10 @@ html, body {
 }
 
 body {
-     background-color: var(--color-background);  
-     background-image: url(../images/bambu2.png);
-     background-size: 130vw 100vh;
-     background-repeat: no-repeat;
+    background-color: var(--color-background);  
+    background-image: url(../images/bambu2.png);
+    background-size: 130vw 100vh;
+    background-repeat: no-repeat;
 }
 
 header nav{
@@ -80,6 +80,16 @@ header nav img{
     font-weight: bolder;
 }
 
+.card .link_whatsapp {
+    border: 3px solid var(--color-dark);
+    border-radius: 2rem;
+    padding-top: 0.2rem;
+}
+
+.card h6 i {
+    margin-left: 0.2rem;
+}
+
 .card a{
     text-decoration: none;
 }
@@ -90,7 +100,6 @@ header nav img{
     font-size: 25px;
     padding-left: 3px;
 }
-
 
 .titulo{
     color: var(--color-white);
@@ -117,5 +126,5 @@ footer div h6{
     color: var(--color-white);
     font-weight:bold;
     padding-top: 5px;
-    text-align: center;  
+    text-align: center;
 }
