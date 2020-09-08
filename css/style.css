@@ -44,6 +44,22 @@ header nav img{
     margin-right: auto
 }
 
+.cardtopo {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.cardtopo img {
+    max-width: 7rem;
+    border-radius: 4rem;
+    margin-bottom: 1rem;
+}
+
+.cardtopo .legenda_foto {
+    margin-left: 2.4rem;
+}
+
 .card{
     background-color:rgba(130, 175, 97, 0.3);
     border: none;
