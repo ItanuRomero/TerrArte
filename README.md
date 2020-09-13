@@ -12,12 +12,13 @@ O site foi construído com as tecnologias:
 * JavaScript
 * Bootstrap
 E pensado através da metodologia **mobile-first**, já que a maioria das pessoas utilizam o celular para usar a internet hoje em dia.
+* Hospedagem gratuíta pelo Netlify
 
 São os próximos passos:
 - [ ] Ajustar todos os textos e fotos.
-- [ ] Colocar o site no ar gratuitamente pelo Netlify.
+- [x] Colocar o site no ar gratuitamente pelo Netlify.
 - [ ] Adicionar uma versão Web com design compatível para Desktop.
 
 ### Criado por: [Itanu Romero](https://github.com/ItanuRomero) & [Ana](https://github.com/kungfurmiga) *clique para visualizar perfil*
 
-- > Veja a preview do site: [aqui](https://itanuromero.github.io/TerrArte/)
+> Veja a preview do site: [aqui](https://terrarte.netlify.app/)
