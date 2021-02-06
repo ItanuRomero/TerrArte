@@ -22,3 +22,5 @@ São os próximos passos:
 ### Criado por: [Itanu Romero](https://github.com/ItanuRomero) & [Ana](https://github.com/kungfurmiga) *clique para visualizar perfil*
 
 > Veja a preview do site: [aqui](https://terrarte.netlify.app/)
+
+Ícones (facebook) feitos por https://www.flaticon.com/br/autores/smashiconstitle from https://www.flaticon.com/br/.
